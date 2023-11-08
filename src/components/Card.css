@@ -1,0 +1,74 @@
+.imageCard {
+  max-width: 600px;
+  margin: 30px;
+  background-color: white;
+  font-family: serif;
+  font-weight: 100;
+  z-index: 10;
+}
+
+.imageCard img {
+  max-width: 600px;
+}
+
+.textBox {
+  padding: 15px 20px 5px;
+  background-color: white;
+}
+
+.textBox h1 {
+  margin: 0;
+  font-weight: 100
+}
+
+.textBox h3 {
+  color: rgb(136, 136, 136);
+  margin: 10px 0 0;
+  font-weight: 100;
+}
+
+.iconRow {
+  display: flex;
+}
+
+.iconRow > img {
+  margin-right: 10px;
+}
+
+.iconRow > h5 {
+  margin: 15px 30px 15px 0;
+  font-weight: 100
+}
+.attributes {
+  border-style: solid;
+  display: inline-block;
+  position: absolute;
+  font-size: 14px;
+  padding: 5px 10px;
+  color:  white;
+  background-color: black;
+  font-weight: 100;
+  border-width: 0.0125rem;
+  margin: 20px;
+}
+
+.gridCard1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+.gridCard2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+
+.gridCard3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 10;
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'SK Porsche';
+  src: url('https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.eot');
+  src: url('https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/1665ea47a0d67d9ffe5475ef41e9ef4a.svg#SK Porsche')
+      format('svg');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: rgb(233, 233, 233);
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+}
+
+header h2 {
+  font-family: 'SK Porsche';
+  flex-grow: 1;
+  margin: 30px;
+  width: 20%;
+}
+
+.btnClass {
+  border-style: solid;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: rgb(126, 112, 42);
+  font-weight: 350;
+  border-width: 0.0125rem;
+  margin: 10px 15px;
+}
+
+.aboutUs {
+  margin: 10px 15px;
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+}
+
+.headerHeart {
+  background-color: rgba(136, 136, 136, 0.24);
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px rgba(136, 136, 136, 0.24);
+  padding: 0.5em 0.6em;
+  margin: 10px 15px;
+}
+
+
+
+
